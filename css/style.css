@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i&display=swap');
+
+
+
+body{
+	font: 400 18px/1.88 Lato, sans-serif;
+	color: #7A7A7A;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 121px;
+	padding-right: 121px;
+	padding-top: 100px;
+	padding-bottom: 121px;
+	max-width: 1500px;
+	height: 940px;
+	margin: 130px 100px;
+	box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+h1{
+	font: 500 42px/1.5 Playfair,serif;
+	color: #171717;
+	letter-spacing: 0.02em;
+}
+
+p{
+margin: 0;
+line-height: 1.9;
+letter-spacing: 0.04em;
+padding-bottom: 35px;
+}
+
+.last{
+	padding-bottom: 0;
+}
+
+.t:first-letter{
+	font: 500 42px/1.5 Playfair,serif;
+	color: #171717;
+	font-size: 110px;
+	float: left;
+	line-height: 0.85;
+	margin: 0 23px 2px 0;
+}
+.discover{
+	letter-spacing: 0.22em;
+	display: inline-block;
+	font: 500 18px/1.88 Lato, sans-serif;
+	text-transform: uppercase;
+	color: #EAA258;
+	border: 2px solid #EAA258;
+	padding: 16px 70px 16px 73px;
+}
+
+.comment{
+	margin: 0;
+	font-size: 24px;
+}
+
+em{
+	font-size: 60px;
+	text-decoration: none;
+
+}
